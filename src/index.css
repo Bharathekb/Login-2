@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+body {
+  background: url("/src/background.jpg");
+  background-position: fixed;
+  background-repeat: repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  z-index: -99;
+}
+
+form {
+  width: 500px;
+  height: 300px;
+  padding: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+  color: #fff;
+  margin: 5px auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+}
+lable {
+  font-size: 18px;
+  color: yellow;
+}
+#btn {
+  background-color: rgb(169, 9, 243);
+  border-radius: 5px;
+  border: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 3px 6px;
+  color: #fff;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+  font-weight: 500;
+}
+#btn:hover {
+  background-color: aqua;
+  color: #000;
+}
+.col-md-12 h4 {
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  margin: 80px 0 0 0;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+h5 {
+  padding: 10px 0;
+  color: #fff;
+  font-weight: 500;
+  font-family: sans-serif;
+  display: inline-block;
+}
+#modal-title {
+  color: #000;
+  font-weight: 700;
+}
+#modal-body {
+  color: green;
+  font-weight: 600;
+}
+@media (max-width: 560px) {
+  form {
+    width: 300px;
+    height: 300px;
+  }
+  h5 {
+    padding: 10px 0;
+    font-weight: 400;
+  }
+}
